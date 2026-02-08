@@ -1,0 +1,43 @@
+@use 'sass:map';
+@use '../variables/typography' as typography;
+
+//headings
+
+h1 {
+    font-family: map.get(typography.$fonts, 'heading') ;
+}
+
+h2 {
+    font-family: map.get(typography.$fonts, 'heading') ;
+}
+
+h3 {
+    font-family: map.get(typography.$fonts, 'heading') ;
+}
+
+h4 {
+    font-family: map.get(typography.$fonts, 'heading') ;
+}
+
+h5 {
+    font-family: map.get(typography.$fonts, 'heading') ;
+}
+
+h6 {
+    font-family: map.get(typography.$fonts, 'heading') ;
+}
+
+// body text
+
+body {
+    font-family: map.get(typography.$fonts, 'body') ;
+}
+
+p {
+    font-family: map.get(typography.$fonts, 'body') ;
+}
+
+ul, dl, ol {
+
+    font-family: map.get(typography.$fonts, 'body') ;
+}

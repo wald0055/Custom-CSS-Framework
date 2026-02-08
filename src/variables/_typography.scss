@@ -1,0 +1,23 @@
+@use '../fonts/index.scss' as fonts;
+
+$fonts: (
+    'body': fonts.$font-red-hat ,
+    'heading': fonts.$font-lexend-deca,
+    'code': fonts.$font-google-sans-code
+);
+
+$font-sizes: (
+    'sm': 12px,
+    'md': 18px,
+    'lg': 36px,
+    'xl': 50px,
+    '2xl': 64px,
+    '3xl': 72px
+
+);
+@each $name, $size in $font-sizes {
+    .text-#{$name} {
+        font-size: $size;
+    }
+}
+
