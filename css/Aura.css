@@ -91,27 +91,41 @@ meter {
 }
 
 .text-sm {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .text-md {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .text-lg {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .text-xl {
-  font-size: 50px;
+  font-size: 56px;
 }
 
 .text-2xl {
-  font-size: 64px;
+  font-size: 70px;
 }
 
 .text-3xl {
-  font-size: 72px;
+  font-size: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
 }
 
 h1 {
@@ -150,24 +164,44 @@ ul, dl, ol {
   font-family: "Red Hat Text", sans-serif;
 }
 
-.bg-color-name {
+.bg-blue {
   background-color: "#0047AB";
 }
 
-.bg-color-name {
+.text-blue {
+  color: "#0047AB";
+}
+
+.bg-green {
   background-color: "#22BB22";
 }
 
-.bg-color-name {
+.text-green {
+  color: "#22BB22";
+}
+
+.bg-red {
   background-color: "#cc0000";
 }
 
-.bg-color-name {
+.text-red {
+  color: "#cc0000";
+}
+
+.bg-black {
   background-color: " #000000";
 }
 
-.bg-color-name {
+.text-black {
+  color: " #000000";
+}
+
+.bg-white {
   background-color: "FFFFFF";
+}
+
+.text-white {
+  color: "FFFFFF";
 }
 
 /*# sourceMappingURL=Aura.css.map */
