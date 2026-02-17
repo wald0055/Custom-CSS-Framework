@@ -1,0 +1,25 @@
+@use 'sass:map';
+@use '../variables/colors' as colors;
+
+.button {
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button-primary {
+  background: map.get(colors.$theme, 'primary');
+  color: white;
+  &:hover { opacity: 0.9; }
+}
+
+.button-success {
+  background: map.get(colors.$theme, 'success');
+  color: white;
+}
+
+.button-error {
+  background: map.get(colors.$theme, 'error');
+  color: white;
+}

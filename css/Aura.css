@@ -252,4 +252,114 @@ dl dd {
   color: "FFFFFF";
 }
 
+.button {
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button-primary {
+  background: "#0047AB";
+  color: white;
+}
+.button-primary:hover {
+  opacity: 0.9;
+}
+
+.button-success {
+  background: "#22BB22";
+  color: white;
+}
+
+.button-error {
+  background: "#cc0000";
+  color: white;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-3 {
+  margin: 1rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+input, textarea, select {
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: "#0047AB";
+  outline: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background: white;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+}
+
+th {
+  background: "#0047AB";
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
 /*# sourceMappingURL=Aura.css.map */

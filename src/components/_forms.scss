@@ -1,0 +1,22 @@
+@use 'sass:map';
+@use '../variables/colors' as colors;
+@use '../variables/spacing' as spacing;
+
+input, textarea, select {
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: map.get(colors.$theme, 'primary');
+  outline: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}

@@ -18,7 +18,7 @@ $colors: (
     }
 }
 
-$themes: (
+$theme: (
     'primary': map.get($colors, 'blue'),
     'success': map.get($colors, 'green'),
     'error': map.get($colors, 'red'),
