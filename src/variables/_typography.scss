@@ -7,17 +7,29 @@ $fonts: (
 );
 
 $font-sizes: (
-    'sm': 12px,
-    'md': 18px,
-    'lg': 36px,
-    'xl': 50px,
-    '2xl': 64px,
-    '3xl': 72px
+    'sm': 16px,
+    'md': 22px,
+    'lg': 40px,
+    'xl': 56px,
+    '2xl': 70px,
+    '3xl': 80px
 
 );
 @each $name, $size in $font-sizes {
     .text-#{$name} {
         font-size: $size;
     }
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.25rem;
 }
 
